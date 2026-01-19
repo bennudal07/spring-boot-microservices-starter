@@ -1,0 +1,12 @@
+server:
+  port: 8081 # User Service portu
+
+spring:
+  application:
+    name: user-service1 # Uygulama ad?
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/ # Eureka Server adresi
+

@@ -1,0 +1,13 @@
+server:
+  port: 8082 # Client Service portu
+
+spring:
+  application:
+    name: client-service1
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/ # Eureka Server adresi
+
+
